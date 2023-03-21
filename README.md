@@ -41,7 +41,7 @@ To deploy to a testnet, you'll need.
 Then, create a `.env` file and add the following lines:
 ```
 ETHERSCAN_API_KEY=ABC123ABC123ABC123ABC123ABC123ABC1
-KOVAN_RPC_URL=https://eth-ropsten.alchemyapi.io/v2/<YOUR ALCHEMY KEY>
+GOERLI_RPC_URL=https://eth-ropsten.alchemyapi.io/v2/<YOUR ALCHEMY KEY>
 PRIVATE_KEY=YOUR_BLOCKCHAIN_WALLET_PRIVATE_KEY
 ```
 DO NOT PUSH YOUR PRIVATE_KEY TO GITHUB. Please test and develop with a private key that doesn't have any real money in it. 
